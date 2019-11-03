@@ -1,0 +1,32 @@
+.about1{
+ /* position: absolute; */
+
+
+}
+
+.about2{
+  font-family: PlayfairDisplaySC-Bold;
+  font-size: 2rem;
+}
+
+.bg{
+  background-image: url("../../../assets/images/Golden.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: top center;
+
+  height: 100%;
+
+  width: 100%;
+  position: relative;
+  z-index: -1;
+
+}
+
+.example-card {
+  /*max-width: 400px; */
+  background-color: aliceblue;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px black;
+  width: 50rem;
+}
