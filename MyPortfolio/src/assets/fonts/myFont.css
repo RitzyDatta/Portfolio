@@ -17,3 +17,8 @@
   font-family: PlayfairDisplaySC-Regular;
   src: url("./PlayfairDisplaySC-Regular.otf") format("truetype");
 }
+@font-face {
+  font-family: GreatVibes-Regular;
+  src: url("./GreatVibes-Regular.otf") format("truetype");
+}
+

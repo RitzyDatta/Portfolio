@@ -7,7 +7,8 @@ import { WelcomeTextComponent } from './components/welcome-text/welcome-text.com
 
 const routes: Routes = [
   { path: '', component : WelcomeTextComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'home', component : WelcomeTextComponent }
 ];
 
 @NgModule({

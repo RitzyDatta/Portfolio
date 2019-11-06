@@ -1,10 +1,15 @@
 
 <mat-toolbar class="toolbar">
-    <a [routerLink]="['/about']" routerLinkActive="router-link-active" >About</a>
 
+  <span class="sign">
+    <a href="./">Rituparna</a>
+  </span>
     <!-- This fills the remaining space of the current row -->
     <span class="example-fill-remaining-space"></span>
+    <a href="./">Home</a>
+    &nbsp; &nbsp; &nbsp;
+    <a [routerLink]="['/about']" routerLinkActive="router-link-active" >About</a>
 
-    <span>Right Aligned Text</span>
+
   </mat-toolbar>
 <router-outlet></router-outlet>

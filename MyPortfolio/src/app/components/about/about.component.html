@@ -1,17 +1,17 @@
 <div class="bg">
   <mat-grid-list cols="4" class="about1">
       <mat-grid-tile class="about2">About Me</mat-grid-tile>
-      <mat-grid-tile colspan="3">
-          <mat-card class="example-card">
-              <mat-card-content @fade>
+      <mat-grid-tile colspan="3" class="test">
+          <mat-card class="example-card" [@fade1]>
+              <mat-card-content >
                 Hi, I am from kolkata. I have completed my MCA degree in 2018 and then I was working in a IT company in Kolkata. After one year, I quit my
-                job and went to another city (Bangalore), searching for a job.
+                job and went to another city (Bangalore), searching for a job.<br/><br/>
             </mat-card-content>
           </mat-card>
       </mat-grid-tile>
-      <mat-grid-tile class="about2">Education</mat-grid-tile>
+      <mat-grid-tile class="about2" >Education</mat-grid-tile>
       <mat-grid-tile colspan="3">
-          <mat-card class="example-card">
+          <mat-card class="example-card" [@fade1]>
               <mat-card-content>
                 <h4>MCA (Master of Computer Application)</h4>
                   <ul class="ul1">
@@ -32,25 +32,47 @@
       </mat-grid-tile>
       <mat-grid-tile class="about2">Experience</mat-grid-tile>
       <mat-grid-tile colspan="3">
-          <mat-card class="example-card">
+          <mat-card class="example-card" [@fade1]>
               <mat-card-content>
-              <span>
-                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                bred for hunting.
-              </span>
+               <h4>Associate Software Engineer</h4>
+               <ul class="ul1">
+                  <li><B>Year: </B> 2018-2019</li>
+                  <li><B>Company: </B> Simpsoft Solutions</li>
+                  <li><b>Projects: </b> Worked on client’s application hosted on SFDC platform to provide support for any technical issues and handled customer as well.
+                    My day to day responsibility was to handle tickets by going through the codebase and running SOQL queries and communicate with internal and external customers.</li>
+               </ul>
+               <h4>Intership</h4>
+               <ul class="ul1">
+                  <li><B>Year: </B> 2018 (January - May)</li>
+                  <li><B>Company: </B> Simpsoft Solutions</li>
+                  <li><b>Projects: </b> Learned SFDC and worked on a project on Salesforce platform using Visualforce for the frontend and Apex for the backend.</li>
+               </ul>
             </mat-card-content>
           </mat-card>
       </mat-grid-tile>
-      <mat-grid-tile class="about2">Skills</mat-grid-tile>
+      <mat-grid-tile class="about2" >Skills</mat-grid-tile>
       <mat-grid-tile colspan="3">
-          <mat-card class="example-card">
+          <mat-card class="example-card" [@fade1]>
               <mat-card-content>
-              <span>
-                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                bred for hunting.
-              </span>
+                  <h4>Programing Laguages</h4>
+                  <ul class="ul1">
+                     <li>C</li>
+                     <li>Core Java</li>
+                     <li>SQL</li>
+                     <li>Javascript</li>
+                     <li>Angular 8</li>
+                     <li>Mongo DB</li>
+                  </ul>
+                  <h4>Technology</h4>
+                  <ul class="ul1">
+                     <li>HTML/CSS</li>
+                     <li>Salesforce</li>
+                     <li>Java Swing</li>
+                     <li>Java FX</li>
+                     <li>Git</li>
+                     <li>JIRA</li>
+                  </ul>
+
             </mat-card-content>
           </mat-card>
       </mat-grid-tile>
