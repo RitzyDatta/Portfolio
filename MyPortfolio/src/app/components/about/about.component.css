@@ -1,10 +1,13 @@
 .about1{
  /* position: absolute; */
+
 }
 
 .about2{
   font-family: PlayfairDisplaySC-Bold;
   font-size: 2rem;
+  text-align: center;
+
 }
 
 .bg{
@@ -26,15 +29,13 @@
   background-color: aliceblue;
   border: 1px solid;
   box-shadow: 5px 10px 18px black;
-  width: 50rem;
+  width: 60rem;
+  text-align: justify;
+
 }
 
-.example-card:hover {
-  border: 10px;
-  background: lightgray;
+.about3 {
+  font-size: 20px;
 }
 
-.test:hover{
-  transform: scale(1.5);
-  box-shadow: -1px 10px 29px 0px rgba(218, 26, 26, 0.8);
-}
+

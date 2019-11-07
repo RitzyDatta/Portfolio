@@ -4,9 +4,13 @@
 
 
 /* DEMO-SPECIFIC STYLES */
+.test{
+  padding-top: 15%;
+}
 
 h1{
   font-family: pacifico;
+  font-size: 3.5vw;
 }
 .typewriter {
 
